@@ -1,0 +1,48 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    min-height: 10vh ;
+    display: grid ;
+    place-items: start;
+    padding: 0px ;
+    border-bottom: 0.0vh;
+    background-color: rgba(9, 48, 219, 0.966);
+    background-image: url(/images/rock.png);
+    background-size: contain 200px;
+}
+
+#menu a:hover{
+  font-style: italic;
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+
+#menu a{
+  margin: 10px;
+  font-size: 18px;
+  text-transform: lowercase;
+  text-decoration: none;
+  color: rgb(0, 0, 0)
+}
+
+section { 
+    display: grid;
+    justify-items: center;
+  }
+  
+#conteudo-1{
+  text-align: center;
+
+}
+
+#conteudo-1 p{
+  width: 15cm;
+}
+body {
+  background-image: url(/images/rock.png);
+  background-size: contain 750px;
+}
